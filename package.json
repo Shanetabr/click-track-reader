@@ -1,0 +1,46 @@
+{
+  "name": "click-track-reader",
+  "version": "0.1.0",
+  "description": "Read a recorded click track: exact tempo, where bar 1 starts, and the time signature. Zero dependencies.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "click-track-reader": "bin/click-track-reader.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/",
+    "bin/"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "click-track",
+    "click",
+    "metronome",
+    "tempo",
+    "bpm",
+    "bpm-detection",
+    "time-signature",
+    "multitrack",
+    "stems",
+    "backing-tracks",
+    "live-audio",
+    "wav"
+  ],
+  "author": "Shane Abraham",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shanetabr/click-track-reader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shanetabr/click-track-reader/issues"
+  },
+  "homepage": "https://github.com/Shanetabr/click-track-reader#readme"
+}
